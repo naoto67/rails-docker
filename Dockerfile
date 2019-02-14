@@ -22,8 +22,6 @@ RUN apk add --update --no-cache $RUNTIME_PACKAGES &&\
     bundle install &&\
     apk del build-dependencies
 
-COPY ./app $ROOT_PATH
-
 COPY entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
