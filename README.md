@@ -8,12 +8,12 @@
   docker-compose up
 ```
 
-## rubocop
+# How to use the rubocop
 ```
   docker-compose run app bundle exec rubocop
 ```
 
-## using pry.
+## How to use the pry byebug
 ```
-  docker-compose run --service-ports web
+  docker-compose run --service-ports app
 ```
