@@ -12,3 +12,8 @@
 ```
   docker-compose run app bundle exec rubocop
 ```
+
+## using pry.
+```
+  docker-compose run --service-ports web
+```
